@@ -15,7 +15,7 @@ function drawTree(h) {
 drawTree(5);
 
 
-/* function drawTree(h) {
+function drawTreeBasic(h) {
 	for (var i = 0; i < h; i++) {
 		var star = "";
 		for (var j = 0; j <= i; j++) {
@@ -25,5 +25,4 @@ drawTree(5);
 	}
 }
 
-drawTree(6);
-*/
+drawTreeBasic(6);
