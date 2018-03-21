@@ -1,10 +1,10 @@
 
 var list = document.getElementById('list'),
 	add = document.getElementById('addElem'),
-	elementNumber = document.getElementsByTagName('li').length;
+	listElements = document.getElementsByTagName('li');
 
 add.addEventListener('click', function() {
 	var element = document.createElement('li');
-	element.innerText = 'item' + elementNumber;
+	element.innerText = 'item ' + listElements.length;
 	list.appendChild(element);
 });
